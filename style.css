@@ -21,14 +21,14 @@ nav
 }
 header
 {
-    position: absolute;
+    position: fixed;
     width: 100%;
-    height: 0vh;
+    height: 8vh;
     top: 0;
     left: 0;
-    background: bisque;
-    color: #fff;
-    padding: 0 2rem;
+    background: gray;
+    color: gray;
+    padding: 2rem;
 }
 .toggle
 {
@@ -58,27 +58,383 @@ header
 .container1
 {
     display: flex;
-    margin: 30px;
     padding-top: 60px;
     background-color: antiquewhite;
     justify-content:space-evenly ;
     
+}
+.section-i
+{
+    padding-top: 100px;
+    display: flex;
+}
+.i
+{
+    color: darkorange;
+    align-items: baseline;
+}
+.s 
+{
+    border-radius: 75%;
+    height: 45px;
+    width: 45px;
 }
 .photo1
 {
     height: 380px;
     width: 450px;
 }
+.photo2
+{
+    height: 230px;
+    width: 250px;
+}
+.ni{
+    padding-left: 660px; 
+    font-style: italic;  
+ }
+.ni1 
+{
+    display: flex;
+    justify-content: space-between;
+}
+.ni2 
+{
+    height: 115px;
+    width: 143px;
+}
+.ni3 
+{
+    height: 115px;
+    width: 320px;
+}
 .l5
 {
     height: 60px;
     width: 300px;
 }
+.container2
+{
+    justify-content: space-around;
+    padding: 70px;
+}
+.container2_1
+{
+    display: flex;
+    justify-content: space-between;
+}
+.container2_2
+{
+    display: flex;
+    justify-content: space-between;
+}
+.container2_3
+{
+    display: flex;
+    justify-content: space-between;
+}
+.t 
+{
+    height: 350px;
+    width: 400px;
+}
+.container3 
+{
+    display: flex;
+    justify-content: space-around;
+}
+.si
+{
+
+    color: rgb(63, 35, 62);
+    width: 60px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 100px;
+}
+.but2
+{
+   display: flex; 
+}
+.but1
+{
+    background-color: green;
+    border-radius: 20px;
+}
+.but3
+{
+    background-color: greenyellow;
+    border-radius: 20px;
+}
+.but4
+{
+    background-color: orangered;
+    border-radius: 20px;
+}
+.lala
+{
+    height: 25px;
+    width: 20px;
+}
+.w 
+{
+    color: darkorange;
+    padding-left: 600px;
+    padding-top: 20px;
+}
+.container-6
+{
+    background-color: bisque;
+    display: flex;
+    margin: 0px;
+}
+.container-6 .rightside
+{
+ justify-content: space-around;
+ padding-top: 245px;
+ padding-left: 150px;
+}
+.container-6 .leftside
+{
+    justify-content: space-around;
+    padding-top: 45px;
+}
+.x
+{
+    height: 180px;
+    width: 180px;
+}
+.section-a
+{
+    display: flex;
+    padding-top: 95px;
+}
+.section-b
+{
+    display: flex;
+    padding-top: 95px;
+}
+.lime
+{
+ padding-right: 10px;
+    font-size: 20px;
+}
+.mile
+{
+    padding-left: 55px;
+    font-size: 20px;
+}
+.dime
+{
+   padding-right: 10px;
+    font-size: 20px;
+}
+.mide
+{
+    padding-left: 55px;
+    font-size: 20px;
+}
+.sa 
+{
+    border-radius: 76%;
+    height: 75px;
+    width: 75px;
+}
+.wi
+{
+    padding-top: 40px;
+    color: darkorange;
+}
+.container7
+{
+    display: flex;
+    justify-content: space-around;
+}
+.sept-i
+{
+    background-color: azure;
+    border-color: bisque;
+    font-size: 25px;
+    border-radius: 3%;
+    padding: 15px;
+}
+.sept-e
+{
+    background-color: bisque;
+    border-color: azure;
+    font-size: 25px;
+    border-radius: 3%;
+    padding: 15px;
+}
+.ai 
+{
+    background-color: yellow;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: black;
+    text-overflow: clip;
+    transform: rotate(15deg);
+    text-align: center;
+}
+.ti 
+{
+    color: darkorange;
+    font-weight: bold;
+    font-size: 50px;
+    padding: 35px;
+}
+.ei 
+{
+    font-weight: bolder;
+    color: black;
+    font-size: 100px;
+    padding: 35px;
+}
+.xi
+{
+    background-color: darkorange;
+    padding-bottom: 10px;
+    font-size: 20px;
+    color: aliceblue;
+    border-radius: 15%;
+    font-weight: bold;
+    padding: 10px;
+    text-decoration: none;
+}
+
+.lila
+{
+    height: 35px;
+    width: 30px;
+}
+.container-8
+{
+    display: flex;
+    justify-content: space-around;
+}
+.h9
+{
+    height: 180px;
+    width: 170px;
+}
+.l1
+{
+    height: 35px;
+    width: 35px;
+    padding-left: 5px;
+}
+.l5
+{
+    height: 60px;
+    width: 300px;
+}
+.social
+{
+    display: flex;
+}
+.container-9
+{
+    
+    display: flex;
+    border-radius: 20%;
+    margin-left: 100px;
+    margin-right: 100px;
+    background-color: orangered;
+    
+
+}
+.container-9 .six
+{
+    background-color: aliceblue;
+    color: rgb(97, 232, 19);
+    border-radius: 35%;
+}
+.container-9 .leftside
+{
+    padding: 30px;
+}
+.min
+{
+    width: 350px;
+    height: 350px;
+}
+.section-h
+{
+    justify-content: space-between;
+    
+}
+.section-p
+{
+    justify-content: space-between;
+    display: flex;
+    
+}
+.section-pi
+{
+    display: flex;
+    justify-content: space-around;
+}
+.container-10
+{
+    display: flex;
+    justify-content: space-between;
+}
 
 
+@media all and (max-width: 1200px){
+   body {
+       height: 100%;
+   }
+    .container1{
+    
+        flex-direction: column;
+        
+    }
+    .container2 {
+        flex-direction: column;
+    }
+    .container2_1 {
+    
+        flex-direction: column;
+    }
+    .container2_2 {
+        
+        flex-direction: column;
+    }
+    .container2_3 {
+        
+        flex-direction: column;
+    }
+    .container3{
+        
+        flex-direction: column;
+    } 
+    .container-6{
+        
+        flex-direction: column;
+    } 
+    .container7{
+        
+        flex-direction: column;
+    } 
+    .container-8{
+        
+        flex-direction: column;
+    } 
+    .container-9{
+        
+        flex-direction: column;
+    } 
+    .container-10{
+        
+        flex-direction: column;
+    } 
+}
 
 
 @media all and (max-width: 991px){
+    body {
+        height: 100%;
+    }
     .toggle{
         font-size: 2rem;
         display: block;
@@ -86,12 +442,12 @@ header
     .ouvrir{
         display: block;
     }
-    .fermer{
+    /* .fermer{
         display: none;
     }
     .open .ouvrir{
         display: none;
-    }
+    } */
     .open .fermer{
         display: block;
     }
@@ -106,15 +462,161 @@ header
     padding: 2rem;
     justify-content: space-around;
     transform: translateX(-100%);
-    transition: transform 1s;
+    /* transition: transform 1s;  */
 }
-.menu li a {
+/* .menu li a {
     font-size: 2rem;
-}
-.btn {
-    font-size: 2rem;
-}
-.open .menu {
+} */
+/* .open .menu {
     transform: translateX(0);
+} */
+.container1{
+    
+    flex-direction: column;
 }
+.container2 {
+    flex-direction: column;
+}
+.container2_1 {
+    
+    flex-direction: column;
+}
+.container2_2 {
+    
+    flex-direction: column;
+}
+.container2_3 {
+    
+    flex-direction: column;
+}
+.container3{
+    
+    flex-direction: column;
+} 
+.container-6{
+    
+    flex-direction: column;
+} 
+.ni1{
+    flex-direction: column;
+    
+}
+.container7{
+        
+    flex-direction: column;
+} 
+.container-8{
+    
+    flex-direction: column;
+} 
+.container-9{
+    
+    flex-direction: column;
+} 
+.container-10{
+    
+    flex-direction: column;
+} 
+}
+
+
+
+@media all and (max-width: 600px){
+   body {
+       height: 100%;
+   }
+    .container1{
+        
+        flex-direction: column;
+        background-color: aqua;
+    }
+    .container2 {
+        flex-direction: column;
+    }
+    .container2_1 {
+        
+        flex-direction: column;
+    }
+    .container2_2 {
+        
+        flex-direction: column;
+    }
+    .container2_3 {
+        
+        flex-direction: column;
+    }
+    .container3{
+        
+        flex-direction: column;
+    } 
+    .container-6{
+        
+        flex-direction: column;
+    } 
+    .container7{
+        
+        flex-direction: column;
+    } 
+    .container-8{
+        
+        flex-direction: column;
+    } 
+    .container-9{
+        
+        flex-direction: column;
+    } 
+    .container-10{
+        
+        flex-direction: column;
+    } 
+}
+
+
+@media all and (max-width: 300px){
+    body {
+        height: 100%;
+    }
+    .container1{
+        
+        flex-direction: column;
+    }
+    .container2 {
+        flex-direction: column;
+    }
+    .container2_1 {
+        
+        flex-direction: column;
+    }
+    .container2_2 {
+        
+        flex-direction: column;
+    }
+    .container2_3 {
+        
+        flex-direction: column;
+    }
+    .container3{
+        
+        flex-direction: column;
+    } 
+    .container-6{
+        
+        flex-direction: column;
+    } 
+    .container7{
+        
+        flex-direction: column;
+    } 
+    .container-8{
+        
+        flex-direction: column;
+    } 
+    .container-9{
+        
+        flex-direction: column;
+    } 
+    .container-10{
+        
+        flex-direction: column;
+    } 
 }
