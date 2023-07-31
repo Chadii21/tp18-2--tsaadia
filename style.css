@@ -4,10 +4,6 @@
   padding: 0; 
   box-sizing: border-box; 
 }
-html
-{
-    font-size: 16px;
-}
 body{
     font-family: sans-serif;
 }
@@ -44,8 +40,14 @@ header
 }
 .menu li a 
 {
-    color: aliceblue;
+    color: rgb(1, 9, 16);
     text-decoration: none;
+}
+h2 {
+    margin-left: 50px;
+}
+p3 {
+    margin-left: 50px;
 }
 .zero
 {
@@ -56,7 +58,7 @@ header
     background-position: center;
 }
 .container1
-{
+{  padding: 45px;
     display: flex;
     padding-top: 60px;
     background-color: antiquewhite;
@@ -100,6 +102,7 @@ header
     justify-content: space-between;
     margin-left: 20px;
     margin-right: 20px;
+    opacity: 50%;
 }
 .ni2 
 {
@@ -259,7 +262,7 @@ header
 {
     padding-top: 40px;
     color: darkorange;
-    margin-left: 30px;
+    margin-left: 50px;
 }
 .container7
 {
@@ -721,21 +724,28 @@ header
     }
     .container2 {
         flex-direction: column;
-        font-size: 25px;
+        font-size: 30px;
+        padding: 0;
     }
     .container2_1 {
         
         flex-direction: column;
+        padding: 0;
+        margin: 0;
         
     }
     .container2_2 {
         
         flex-direction: column;
+        padding: 0;
+        margin: 0;
         
     }
     .container2_3 {
         
         flex-direction: column;
+        padding: 0;
+        margin: 0;
         
     }
     .ni3 
@@ -766,12 +776,13 @@ header
  padding-left: 50px;
 }
     .container7{
-        
+        margin: 0;
         flex-direction: column;
     } 
     .container-8{
         height: 100%;
         flex-direction: column;
+        margin: 0;
     } 
     .container-9{
         
@@ -789,6 +800,7 @@ header
     .container-10{
         height: 100%;
         flex-direction: column;
+        margin: 0;
     } 
     .section-i{
         margin: 0;
